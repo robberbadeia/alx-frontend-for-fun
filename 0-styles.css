@@ -1,0 +1,38 @@
+ul {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  background-color: aliceblue;
+}
+
+li {
+  text-decoration: none;
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+  border: 2px solid black;
+  border-radius: 0.2rem;
+  font-size: 2rem;
+  height: 400px;
+  width: 300px;
+}
+.icon {
+  background-image: url(./0-sprite.png);
+  background-repeat: no-repeat;
+  height: 100%;
+  width: 100%;
+}
+
+li span.i-html {
+  background-position: left center;
+}
+
+li span.i-css {
+  background-position: center;
+}
+
+li span.i-js {
+  background-position: right center;
+}
